@@ -1,0 +1,11 @@
+[package]
+name = "fourbytes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+description = "Rust wrapper for Ethereum method signature database"
+license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
+
+[dependencies]
+hex-literal = "0.3"
+phf = { version = "0.11", features = ["macros"] }
